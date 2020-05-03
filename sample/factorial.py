@@ -22,18 +22,21 @@ __version__ = "0.0.1"
 batch_size = 16
 random_seed = 42
 
-class Person():
+
+class Person:
     def __init__(self, name):
         self.name = name
 
     def greet(self):
         return f"hello {self.name}"
 
+
 def factorial(num):
     if num == 0 or num == 1:
         return 1
     else:
         return num * math.factorial(num - 1)
+
 
 if __name__ == "__main__":
     print(factorial(3))
