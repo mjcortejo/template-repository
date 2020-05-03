@@ -30,6 +30,9 @@ class Person:
     def greet(self):
         return f"hello {self.name}"
 
+    def say_goodbye(self):
+        return f"goodbye {self.name}"
+
 
 def factorial(num):
     if num == 0 or num == 1:
